@@ -6,9 +6,12 @@ class Person:
     def __init__(self):
         print("bobby1")
 
+
 def decorator_func():
     print("dec start")
     return ask
+
+
 my_ask = decorator_func()
 my_ask("Tom")
 

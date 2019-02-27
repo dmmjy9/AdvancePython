@@ -7,11 +7,15 @@ print(type(str))
 # type -> int -> 1
 # type -> class -> obj
 
+
 class Student:
     pass
 
+
 class MyStudent(Student):
     pass
+
+
 stu = Student()
 print(type(stu))
 print(type(Student))
