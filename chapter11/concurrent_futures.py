@@ -9,7 +9,7 @@ def get_html(url):
 
 
 if __name__ == '__main__':
-    executor = ThreadPoolExecutor(max_workers=2)
+    executor = ThreadPoolExecutor(max_workers=3)
     # task1 = executor.submit(get_html, (3))
     # task2 = executor.submit(get_html, (2))
     # print(task1.result())
